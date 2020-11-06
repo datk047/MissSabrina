@@ -26,20 +26,21 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 def escape_html(word):
     return escape(word)
 
-PM_START_TEXT = """
-Hello *{}* My name is *Sabrina*!
+PM_START_TEXT =  """Hello {}, my name is {}!
 
-I'm here to manage your groups! 
+You know how hard it is sometimes to manage group so here is the solution for you
 
-Click Help button to find out more about how to use me to my full potential. 
+I'm 'ASSIST' bot and Anti-spam.
 
-Join Support Chat ( @SabrinaChat ) if you need any support or help 
+Activate Anti-spam protection in your BM by this command : 
+/antispam on 
 
-Join ( @SabrinaOfficial ) if you want to keep up with the news, updates and bot downtime!
+My owner is @Dark047
 
-Made by @TechnoAyanOfficial
+Speical THANKS to @paranormal_s For helping me
 
-Want me to help you? [Click Here!](https://t.me/MissSabrina_bot?startgroup=true)
+
+Click /help or Help button below to find out more about how to use me to my full potential.
 """
 
 
